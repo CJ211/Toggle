@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="#000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.toggle.MainActivity">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/ic_action_name"
+        android:id="@+id/imageView"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:background="#0f0"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="HIDE"
+        android:id="@+id/button4"
+        android:visibility="visible"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:background="#0f0"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="SHOW"
+        android:id="@+id/button5"
+        android:visibility="invisible"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp" />
+
+</RelativeLayout>
